@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "platf"
+version = "0.1.0"
+description = ""
+authors = ["gadzhiev.vazhid <gadzhiev.vazhid@wb.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+polars = {extras = ["pyarrow"], version = "^1.30.0"}
+ipykernel = "^6.29.5"
+scikit-learn = ">=1.0.0,<1.6"
+fedot = {extras = ["all"], version = "^0.7.5"}
+imbalanced-learn = "<0.13.0"
+setuptools = "^80.8.0"
+statsmodels = "0.13.5"
+lightautoml = "^0.4.1"
+h2o = "^3.46.0.7"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+numpy = "<1.24.0"
+pyarrow = ">=4.0.0,<20.0.0"
+mne = "^1.9.0"
+pywavelets = "^1.8.0"
+gensim = "^4.3.3"
+mlflow = "^2.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,10 @@
+mlartifacts/
+mlruns/
+*.lock
+*.pkl
+*.csv
+.ipynb_checkpoints
+*.edf
+*.csv
+*.pkl
+*.lock
